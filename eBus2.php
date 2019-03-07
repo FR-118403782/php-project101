@@ -1,7 +1,7 @@
 <?php
 session_start();
 $fullNmaeValue = "";
-$_totalValue2 = "";
+$totalValue2 = "";
 /*
  * Create a session variable for the mobile number
  */
@@ -15,7 +15,8 @@ $totalValue = $_POST['txtTotal'];
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+<!DOCTYPE html!>
+<html>
 
         <title>eBusiness 2</title>
         <body>
@@ -33,7 +34,7 @@ $totalValue = $_POST['txtTotal'];
         <td><input type="text" id="txtNum" name="txtNum" value="" /></td>
         </tr>
         <td>Password</td>
-        <td><input type="text" id="txtTotal" name="txtTotal" value="<?php echo $totalValue;?>" /></td>
+        <td><input type="text" id="txtTotal" name="txtTotal" value="" /></td>
         </tr>
         </table>
         </center>
