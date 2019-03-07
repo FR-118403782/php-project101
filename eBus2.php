@@ -20,7 +20,7 @@ $totalValue = $_POST['txtTotal'];
         <title>eBusiness 2</title>
         <body>
         <div class="form">
-        <form name="Details" method="post" action= "eBus3.php">
+        <form name="Details" method="post" action= "EBus3.php">
         <center>
         <table cellspacing="10">
         <tr>
