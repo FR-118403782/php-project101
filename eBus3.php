@@ -1,7 +1,11 @@
 
-
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+            background-image: url("paper.jpg");
+           </style>
+    </head>
 <body>
 <center>
     <h1><b><u>Purchase Receipt</u></b></h1>
@@ -28,6 +32,4 @@ echo "The total value is $".$totalValue.".";
 </body>
 </html>
 	
-	
-	
-        
+
